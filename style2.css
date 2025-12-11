@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Poppins, sans-serif;
+    background-image: url("/Images/weather.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* ===== CARD BASE ===== */
+.card {
+    width: 50px;
+    height: 350px;
+    padding: 25px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.2);
+}
+
+.city {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.date {
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.temp {
+    font-size: 70px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.desc {
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.wind {
+    font-size: 13px;
+    opacity: 0.8;
+}
+
+
+/* ===== GRADIENTS (exact screenshot colors) ===== */
+.blue {
+    background: linear-gradient(180deg, #5ab1ff, #3467ed);
+}
+
+.yellow {
+    background: linear-gradient(180deg, #ffd56b, #fca326);
+}
+
+.grey-blue {
+    background: linear-gradient(180deg, #8fa6c9, #3f6fb3);
+}
+
+/* ===== ICON PLACEHOLDERS ===== */
+.icon {
+    margin: 10px auto;
+    width: 120px;
+    height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Use your own icons later */
+.sun-cloud {
+    background-image: url('https://i.imgur.com/rYp2U1P.png');
+}
+
+.sun {
+    background-image: url('https://i.imgur.com/Qr39jRe.png');
+}
+
+.rain {
+    background-image: url('https://i.imgur.com/Dz8gm49.png');
+}

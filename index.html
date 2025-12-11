@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Cards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- SEARCH BAR -->
+<div class="search-area">
+    <input type="text" id="searchInput" placeholder="Search city...">
+    <button onclick="searchCity()">Search</button>
+</div>
+
+<div class="container">
+
+    <!-- CARD 1 -->
+    <div class="card blue">
+        <h2 class="city" id="city1">London</h2>
+        <p class="date">Mon 8:30</p>
+
+        <h1 class="temp">15°</h1>
+        <div class="icon sun-cloud"></div>
+        <p class="desc">Mostly cloudy</p>
+        <p class="wind">Wind 5 km/h</p>
+
+        <div class="buttons">
+            <button>Tomorrow →</button>
+            <button>Week →</button>
+        </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card yellow">
+        <h2 class="city">London</h2>
+        <p class="date">Mon 12:00</p>
+
+        <h1 class="temp">30°</h1>
+        <div class="icon sun"></div>
+        <p class="desc">Sunny</p>
+        <p class="wind">Wind 2 km/h</p>
+
+        <div class="buttons">
+            <button>Tomorrow →</button>
+            <button>Week →</button>
+        </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card grey-blue">
+        <h2 class="city">London</h2>
+        <p class="date">Mon 15:15</p>
+
+        <h1 class="temp">8°</h1>
+        <div class="icon rain"></div>
+        <p class="desc">Rainy</p>
+        <p class="wind">Wind 4 km/h</p>
+
+        <div class="buttons">
+            <button>Tomorrow →</button>
+            <button>Week →</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
